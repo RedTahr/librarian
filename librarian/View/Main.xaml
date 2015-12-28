@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="librarian.Main">
+	<ContentPage.Content>
+	<StackLayout Orientation="Vertical">
+	<Button x:Name="ScanOnce" Clicked="OnClicked_ScanOnce" Text="Scan Once"/>
+	<Button x:Name="ScanContinuously" Clicked="OnClicked_ScanContinuously" Text="Scan Continuously" />
+	<Button x:Name="ViewHistory" Clicked="OnClicked_ViewHistory" Text="View History" />
+	<Button x:Name="ShareHistory" Clicked="OnClicked_ShareHistory" Text="Share History" />
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
